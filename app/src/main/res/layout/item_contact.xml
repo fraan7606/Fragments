@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/tvContactName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacto 1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvContactPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="111111111"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:paddingTop="4dp" />
+
+</LinearLayout>
