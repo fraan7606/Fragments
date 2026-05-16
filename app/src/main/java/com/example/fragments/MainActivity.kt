@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity(), ContactListFragment.OnContactSelectedL
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Create fragments programmatically
         val contactListFragment = ContactListFragment()
         contactInfoFragment = ContactInfoFragment()
 
